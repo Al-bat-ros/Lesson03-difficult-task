@@ -1,6 +1,8 @@
 'use strict';
 
-let lang = 'ru';
+// УСЛОЖНЕННОЕ ЗАДАНИЕ 1
+
+let lang = 'en';
 let ruWeek = 'понедельник, вторник, среда, четверг, пятница, суббота, воскресение.';
 let enWeek = 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.';
 // Через if 
@@ -23,3 +25,10 @@ switch (lang){
  let arr = {'ru': ruWeek.split(), 'en': enWeek.split()};
 console.log(arr[lang].join());
 
+// УСЛОЖНЕННОЕ ЗАДАНИЕ 2
+
+let namePerson = 'Артем';
+
+let position = namePerson == 'Артем' ? 'Директор' : namePerson == 'Максим' ? 'Преподователь' : 'Студент';
+
+console.log(position);
